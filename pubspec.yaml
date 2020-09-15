@@ -1,0 +1,14 @@
+name: lm_rpc_bridge
+description: RPC bridge, similar to the implementation of agents, can capture the specified data by adding interceptors and intervene in processing, such as interrupt, redirection and so on.
+version: 1.0.0
+homepage: https://github.com/LmFlutterSDK/rpc_bridge
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  http:
+  typed_data:
+
+dev_dependencies:
+  test:
